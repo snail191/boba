@@ -1,0 +1,29 @@
+img {
+  box-shadow: 5px 5px 5px;
+  border-radius: 5px;
+}
+
+h1{
+  font-style: italic;
+  animation-name: fly;
+  animation-duration: 5s;
+  color: rgb(197, 36, 30);
+}
+ 
+a {
+  text-decoration: none;
+  color:rgb(197, 36, 30);
+  display: inline-block; 
+  
+}
+
+a:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+  color:blue;
+}
+
+@keyframes fly {
+  from{ color:red;}
+  to{color: blue;}
+}
